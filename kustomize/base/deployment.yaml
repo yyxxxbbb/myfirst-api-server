@@ -10,7 +10,7 @@ metadata:
     prometheus.io/path: '/actuator/prometheus'
     update: 0e40f9e4
   name: sk0118-myfirst-api-server
-  namespace: class-1
+  namespace: class-4
 spec:
   replicas: 1
   selector:

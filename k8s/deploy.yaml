@@ -10,7 +10,7 @@ metadata:
     prometheus.io/path: '/actuator/prometheus'
     update: 0e40f9e4
   name: sk0118-myfirst-api-server
-  namespace: class-1
+  namespace: class-4
 spec:
   replicas: 1
   selector:
@@ -25,7 +25,7 @@ spec:
       terminationGracePeriodSeconds: 20
       containers:
         - name: myfirst-api-server
-          image: skala-registry.skala-us.com/class-1/sk0118-webserver:1.0.buildkit-pod
+          image: skala-registry.skala-us.com/class-4/sk0118-webserver:1.0.buildkit-pod
           imagePullPolicy: Always
           ports:
             - containerPort: 8080

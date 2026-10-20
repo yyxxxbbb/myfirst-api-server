@@ -3,7 +3,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: sk0118-backend-configmap
-  namespace: class-1
+  namespace: class-4
 data:
   application-prod.yaml: |
     server:
@@ -16,7 +16,7 @@ data:
         level: high
       team:
         position: "5th floor"
-        detail: class-1
+        detail: class-4
 
     # MariaDB 설정
     spring:
