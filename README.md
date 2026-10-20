@@ -51,3 +51,4 @@ kubectl apply -f k8s/service.yaml
 - Service는 `ClusterIP`이므로 클러스터 밖에서는 직접 접근할 수 없습니다. 외부에서 접근하는 진입점(Ingress)은 `03.frontend`에만 있으며, 03.frontend(nginx)가 이 Service(`backend:8080`)로 API 요청을 전달하는 구조입니다.
 - Liveness/Readiness probe는 Actuator의 `/actuator/health/liveness`, `/actuator/health/readiness`를 사용합니다.
 add
+test README.md
